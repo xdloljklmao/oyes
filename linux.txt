@@ -60,7 +60,7 @@ cat capitals1 capitals2 capitals3 > capitals
 cat capitals2 >> capitals
 
 19.	Give read and write permissions to all users for the file capitals
-chmod -a+rw capitals
+chmod a+rw capitals
 
 20.	Give read permissions only to the owner of the file capitals. Open the file, make some changes and try to save it. What happens
 chmod 400 capitals
